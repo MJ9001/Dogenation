@@ -1,0 +1,28 @@
+name: Dogenation
+main: org.dogecraft.Main
+version: 1
+description: The Dogeist doge on this side of town.
+author: Lucky, the owner of DogeCraft!
+website: dogecraft.org
+commands:
+   funds:
+     description: Get current balance of dogecoin!
+     usage: /funds
+   wallet:
+     description: Gives you your dogecoin address!
+     usage: /wallet
+   walletcopy:
+     description: Gives you your dogecoin address that you can then copy!
+     usage: /walletcopy
+   senddoge:
+     description: Send dogecoin to another player!
+     usage: /senddoge (player) (ammount)
+   dogebuy:
+     description: Buy or list donation ranks!
+     usage: /dogebuy (rank)
+   vote:
+     description: View voteing information!
+     usage: /vote
+   doge:
+     description: Send dogenation commands!
+     usage: /doge
